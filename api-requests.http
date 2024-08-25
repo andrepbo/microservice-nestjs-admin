@@ -1,0 +1,33 @@
+# User API
+
+### GET all users
+GET http://localhost:3000/api/users
+Accept: application/json
+
+### GET a user
+GET http://localhost:3000/api/users/1
+Accept: application/json
+
+### POST create user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "John Doe",
+  "email": "johndoe@email.com",
+  "password": "johndoe"
+}
+
+### PUT update user
+PUT http://localhost:3000/api/users/1
+Content-Type: application/json
+
+{
+  "username": "John Doe new",
+  "email": "johndoe@emailnew.com",
+  "password": "johndoenew"
+}
+
+### DELETE user
+DELETE http://localhost:3000/api/users/1
+Accept: application/json
