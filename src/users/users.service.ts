@@ -14,7 +14,7 @@ export class UsersService {
         return this.userRepository.find();
     }
 
-    async create(data): Promise<User> {
+    async create(data: { username: string, email: string, password: string }): Promise<User> {
         return this.userRepository.save(data);
     }
 
@@ -22,7 +22,7 @@ export class UsersService {
         return this.userRepository.findOne({ where: { id } });
     }
 
-    async update(id: number, data): Promise<any> {
+    async update(id: number, data: { username: string, email: string, password: string }): Promise<any> {
         return this.userRepository.update(id, data);
     }
 
