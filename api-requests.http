@@ -15,7 +15,7 @@ Content-Type: application/json
 {
   "username": "John Doe",
   "email": "johndoe@email.com",
-  "password": "johndoe"
+  "password": ""
 }
 
 ### PUT update user
@@ -25,7 +25,7 @@ Content-Type: application/json
 {
   "username": "John Doe new",
   "email": "johndoe@emailnew.com",
-  "password": "johndoenew"
+  "password": ""
 }
 
 ### DELETE user
