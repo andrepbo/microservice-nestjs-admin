@@ -1,4 +1,5 @@
 ## Project setup
+Clone the [main repository](https://github.com/andrepbo/microservice-nestjs-main.git) and follow the instructions presented in it's README file.
 
 Copy the .env.template file to .env and update it with your specific configurations:
 
