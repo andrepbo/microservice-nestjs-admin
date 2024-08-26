@@ -13,8 +13,8 @@ POST http://localhost:3000/api/users
 Content-Type: application/json
 
 {
-  "username": "John Doe",
-  "email": "johndoe@email.com",
+  "username": "",
+  "email": "",
   "password": ""
 }
 
@@ -23,8 +23,8 @@ PUT http://localhost:3000/api/users/1
 Content-Type: application/json
 
 {
-  "username": "John Doe 1",
-  "email": "johndoe@email1.com",
+  "username": "",
+  "email": "",
   "password": ""
 }
 
